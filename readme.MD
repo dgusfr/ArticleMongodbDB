@@ -20,10 +20,13 @@ Esse projeto realiza a implementação do Node JS com o MongoDB em um Banco de d
 
 <div style="display: flex; flex-direction: row;">
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="img/js.png" alt="Logo Linguagem" width="100"/>
+    <img src="img/js.png" alt="Logo Linguagem" width="200"/>
   </div>
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="img/node.png" alt="Logo Linguagem" width="100"/>
+    <img src="img/node.png" alt="Logo Linguagem" width="300"/>
+  </div>
+  <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
+    <img src="img/mongodb.png" alt="Logo Linguagem" width="300"/>
   </div>
 </div>
 
@@ -44,6 +47,8 @@ Com esse projeto podemos realizar as operações basicas de CRUD (CREATE, READ. 
 Este projeto possui apenas o Back-end fito, então para realizar a operação de criação devemos adicionar os dados via código, para posteriormente realizar as outras operações.
 
 Futuramente pretendo transformar este projeto em uma API e adicionar o Front end.
+
+Este projeto utiliza Orientação a objetos e Modules, desta forma os arquivos estão divididos nas suas respectivas pastas com o nome e operação que cada uma realiza.
 
 ## Estrutura do Projeto
 
