@@ -29,27 +29,25 @@ Esse projeto realiza a implementação do Node JS com o MongoDB em um Banco de d
 
 ## Status
 
-![Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge)
-
 ![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
-
-<!-- -->
 
 ## Descrição
 
-"Breve descrição do que se trata o projeto"
+Este projeto utiliza o MongoDb, mais precisamente o mongoose, para comunicação dop BackEnd em Node JS com o Banco de dados NoSQL.
 
 ## Funcionalidades
 
-"O que esses codigos fazem"
+Com esse projeto podemos realizar as operações basicas de CRUD (CREATE, READ. UPDATE, DELETE) em um banco de dados.
 
 ## Explicação
 
-"Codigo do projeto"
+Este projeto possui apenas o Back-end fito, então para realizar a operação de criação devemos adicionar os dados via código, para posteriormente realizar as outras operações.
+
+Futuramente pretendo transformar este projeto em uma API e adicionar o Front end.
 
 ## Como Usar
 
-1.
+1. git clone
 2.
 3.
 
