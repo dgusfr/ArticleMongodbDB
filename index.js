@@ -69,4 +69,13 @@ Article.findOne({ author: "John" })
     console.error(err);
   });
 
+//Deletando um elemento
+Article.findByIdAndDelete("66756973b8b1fb0324746f01")
+  .then(() => {
+    console.log("Article deleted");
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+
 findArticles();
