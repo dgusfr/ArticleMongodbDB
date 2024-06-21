@@ -1,0 +1,14 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Diego Franco",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongoose": "^8.4.3"
+  }
+}
