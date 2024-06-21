@@ -3,7 +3,7 @@
 Esse projeto realiza a implementação do Node JS com o MongoDB em um Banco de dados.
 
 <div align="center">
-  <img src="img/logo.png" alt="Imagem do Projeto" width="100">
+  <img src="img/logo.png" alt="Imagem do Projeto" width="900">
 </div>
 
 ## Sumário
