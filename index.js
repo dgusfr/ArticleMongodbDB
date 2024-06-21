@@ -24,4 +24,22 @@ async function findArticles() {
   }
 }
 
+//Busca elementos pelo id
+Article.find({ _id: "5f3b3b3b3b3b3b3b3b3b3b3b" })
+  .then((article) => {
+    console.log(article);
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+
+//Busca elementos por conteudo
+Article.find({ author: "John Doe" })
+  .then((article) => {
+    console.log(article);
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+
 findArticles();
