@@ -78,4 +78,16 @@ Article.findByIdAndDelete("66756973b8b1fb0324746f01")
     console.error(err);
   });
 
+//Atualizando um elemento
+Article.findByIdAndUpdate("66756973b8b1fb0324746f02", {
+  title: "Vue and React",
+  author: "José",
+})
+  .then(() => {
+    console.log("Article updated");
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+
 findArticles();
