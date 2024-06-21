@@ -45,11 +45,25 @@ Este projeto possui apenas o Back-end fito, então para realizar a operação de
 
 Futuramente pretendo transformar este projeto em uma API e adicionar o Front end.
 
+## Estrutura do Projeto
+
+Models/
+
+- Users.js
+
+Controllers/
+
+- Create.js
+- Read.js
+- Update.js
+- Delete.js
+- index.js
+
 ## Como Usar
 
-1. git clone
-2.
-3.
+1. git clone `https://github.com/dgusfr/ArticleMongodbDB`
+2. npm install
+3. node index.js
 
 ## Autor
 
